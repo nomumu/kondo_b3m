@@ -1,0 +1,3 @@
+[submodule "kondo_b3m_control"]
+	path = kondo_b3m_control
+	url = https://github.com/nomumu/kondo_b3m_control.git
