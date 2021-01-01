@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>kondo_b3m_gazebo</name>
+  <version>0.0.1</version>
+  <description>The kondo b3m gazebo package</description>
+  <maintainer email="nomumu-github@koso2-dan.ddo.jp">nomumu</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>gazebo</build_depend>
+  <build_depend>gazebo_plugins</build_depend>
+  <build_depend>gazebo_ros_control</build_depend>
+
+  <run_depend>gazebo</run_depend>
+  <run_depend>gazebo_plugins</run_depend>
+  <run_depend>gazebo_ros_control</run_depend>
+  <run_depend>kondo_b3m_control</run_depend>
+  <run_depend>kondo_b3m_description</run_depend>
+</package>
